@@ -1,0 +1,2 @@
+import {Header,Footer,PageHero,TherapyRow,CTA,therapies} from '@/components/site';
+export default function Therapies(){return <><Header/><PageHero eyebrow="Our Therapies" title="Evidence-Based Therapies" copy="Our multidisciplinary team provides a range of therapies tailored to your child’s unique needs." imageLabel="Therapy support"/><main><section className="section"><div className="container therapy-list">{therapies.map((x,i)=><TherapyRow key={x[0]} item={x} index={i}/>)}</div></section><CTA/></main><Footer/></>}
