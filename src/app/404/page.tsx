@@ -1,0 +1,2 @@
+import {Header,Footer,Visual} from '@/components/site';
+export default function FourOhFour(){return <><Header/><main className="error-page"><div className="container"><Visual label="Friendly Devine CDC 404 illustration"/><h1 className="serif">Oops!</h1><p>Looks like you’ve wandered off track. The page you’re looking for doesn’t exist.</p><div className="actions" style={{justifyContent:'center'}}><a className="btn" href="/">Go to Homepage</a><a className="btn alt" href="/contact">Contact Us</a></div></div></main><Footer/></>}
